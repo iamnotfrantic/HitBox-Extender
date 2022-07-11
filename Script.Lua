@@ -1,4 +1,4 @@
-_G.HeadSize = 6 -- edit  here, 1-7ish is less blatant if used correctly
+_G.HeadSize = 20 -- edit  here, 1-7ish is less blatant if used correctly
 _G.Disabled = true
 game:GetService('RunService').RenderStepped:connect(function()
 if _G.Disabled then
